@@ -157,8 +157,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
 
     private static final String DEVELOPMENT_TOOLS = "development_tools";
 
-    private static final String ADVANCED_REBOOT_KEY = "advanced_reboot";
-
     private static final int RESULT_DEBUG_APP = 1000;
 
     private IWindowManager mWindowManager;
@@ -217,7 +215,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
     private Object mSelectedRootValue;
     private PreferenceScreen mDevelopmentTools;
 
-    private CheckBoxPreference mAdvancedReboot;
     private CheckBoxPreference mExperimentalWebView;
 
     private final ArrayList<Preference> mAllPrefs = new ArrayList<Preference>();
@@ -275,13 +272,11 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         mAllowMockSMS = findAndInitCheckboxPref(ALLOW_MOCK_SMS);
         mPassword = (PreferenceScreen) findPreference(LOCAL_BACKUP_PASSWORD);
         mAllPrefs.add(mPassword);
-        mAdvancedReboot = findAndInitCheckboxPref(ADVANCED_REBOOT_KEY);
 
         if (!android.os.Process.myUserHandle().equals(UserHandle.OWNER)) {
             disableForUser(mEnableAdb);
             disableForUser(mClearAdbKeys);
             disableForUser(mPassword);
-            disableForUser(mAdvancedReboot);
         }
 
         mDebugAppPref = findPreference(DEBUG_APP_KEY);
@@ -546,18 +541,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         updateVerifyAppsOverUsbOptions();
         updateBugreportOptions();
         updateRootAccessOptions();
-        updateAdvancedRebootOptions();
-    }
-
-    private void writeAdvancedRebootOptions() {
-        Settings.Secure.putInt(getActivity().getContentResolver(),
-                Settings.Secure.ADVANCED_REBOOT,
-                mAdvancedReboot.isChecked() ? 1 : 0);
-    }
-
-    private void updateAdvancedRebootOptions() {
-        mAdvancedReboot.setChecked(Settings.Secure.getInt(getActivity().getContentResolver(),
-                Settings.Secure.ADVANCED_REBOOT, 0) != 0);
     }
 
     private void updateAdbOverNetwork() {
@@ -1353,8 +1336,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
             writeDebugLayoutOptions();
         } else if (preference == mKillAppLongpressBack) {
             writeKillAppLongpressBackOptions();
-        } else if (preference == mAdvancedReboot) {
-            writeAdvancedRebootOptions();
         }
 
         return false;
