@@ -49,11 +49,6 @@
         <item>Attivato</item>
         <item>Disattivato</item>
     </string-array>
-    <string-array name="entries_status_bar_am_pm">
-        <item>Normale</item>
-        <item>Piccolo</item>
-        <item>Nessuno (predefinito)</item>
-    </string-array>
     <string-array name="wifi_countrycode_entries">
         <item>Stati Uniti</item>
         <item>Canada, Taiwan</item>

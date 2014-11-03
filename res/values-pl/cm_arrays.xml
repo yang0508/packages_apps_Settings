@@ -44,9 +44,4 @@
         <item>Włączony</item>
         <item>Wyłączony</item>
     </string-array>
-    <string-array name="entries_status_bar_am_pm">
-        <item>Normalny</item>
-        <item>Mały</item>
-        <item>Brak</item>
-    </string-array>
 </resources>

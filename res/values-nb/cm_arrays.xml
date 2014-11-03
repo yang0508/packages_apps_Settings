@@ -66,9 +66,4 @@
         <item>På</item>
         <item>Av</item>
     </string-array>
-    <string-array name="entries_status_bar_am_pm">
-        <item>Normal</item>
-        <item>Liten</item>
-        <item>Ingen</item>
-    </string-array>
 </resources>
