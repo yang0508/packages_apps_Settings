@@ -67,11 +67,6 @@
         <item>Activado</item>
         <item>Desactivado</item>
     </string-array>
-    <string-array name="entries_status_bar_am_pm">
-        <item>Normal</item>
-        <item>Pequeño</item>
-        <item>Ninguno (por defecto)</item>
-    </string-array>
     <string-array name="app_ops_summaries_cm">
         <item>ubicación aproximada</item>
         <item>ubicación precisa</item>

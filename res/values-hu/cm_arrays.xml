@@ -61,11 +61,6 @@
         <item>Be</item>
         <item>Ki</item>
     </string-array>
-    <string-array name="entries_status_bar_am_pm">
-        <item>Normál</item>
-        <item>Kicsi</item>
-        <item>Elrejtés</item>
-    </string-array>
     <string-array name="multi_sim_entries">
         <item> Előfizetés 1 </item>
         <item> Előfizetés 2 </item>

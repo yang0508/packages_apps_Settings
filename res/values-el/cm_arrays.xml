@@ -61,11 +61,6 @@
         <item>Ενεργή</item>
         <item>Ανενεργή</item>
     </string-array>
-    <string-array name="entries_status_bar_am_pm">
-        <item>Κανονικό</item>
-        <item>Μικρό</item>
-        <item>Κανένα</item>
-    </string-array>
     <string-array name="app_ops_summaries_cm">
         <item>τοποθεσία κατά προσέγγιση</item>
         <item>ακριβής τοποθεσία</item>

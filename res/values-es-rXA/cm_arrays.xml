@@ -67,11 +67,6 @@
         <item>Activáu</item>
         <item>Desactiváu</item>
     </string-array>
-    <string-array name="entries_status_bar_am_pm">
-        <item>Normal</item>
-        <item>Pequeñu</item>
-        <item>Nengún (por defeutu)</item>
-    </string-array>
     <string-array name="app_ops_summaries_cm">
         <item>llocalización aproximada</item>
         <item>llocalización precisa</item>

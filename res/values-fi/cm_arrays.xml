@@ -62,9 +62,4 @@
         <item>Pois päältä</item>
     </string-array>
 
-    <string-array name="entries_status_bar_am_pm">
-        <item>Normaali</item>
-        <item>Pieni</item>
-        <item>Ei käytössä</item>
-    </string-array>
 </resources>

@@ -49,7 +49,7 @@
     <string name="preview_carrier_title">통신사</string>
     <string name="themes_settings_title">테마 설정</string>
     <string name="system_interface_title">시스템 인터페이스</string>
-    <string name="notification_drawer_title">알림 서랍</string>
+    <string name="notification_drawer_title">알림서랍</string>
     <string name="lock_screen_title">잠금 화면</string>
     <string name="lockscreen_target_info">바로가기를 할당할 위치로 자물쇠 아이콘을 드래그</string>
     <string name="lockscreen_target_title">잠금 화면 바로가기</string>
@@ -333,7 +333,7 @@
     <string name="lockscreen_buttons_previous">이전 곡</string>
     <string name="lockscreen_buttons_playpause">음악 재생/일시 정지</string>
     <string name="lockscreen_buttons_toggle_sound">벨소리 모드 전환</string>
-    <string name="quick_settings_panel_title">퀵 패널</string>
+    <string name="quick_settings_panel_title">퀵패널</string>
     <string name="title_static_tiles">고정 타일</string>
     <string name="tile_picker_title">타일 및 레이아웃</string>
     <string name="tile_picker_summary">사용중인 타일 확인 또는 변경</string>

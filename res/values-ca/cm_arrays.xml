@@ -61,11 +61,6 @@
         <item>On</item>
         <item>Off</item>
     </string-array>
-    <string-array name="entries_status_bar_am_pm">
-        <item>Normal</item>
-        <item>Petit</item>
-        <item>Cap</item>
-    </string-array>
     <integer-array name="auto_brightness_sensitivity_values">
         <item>150</item>
         <item>125</item>

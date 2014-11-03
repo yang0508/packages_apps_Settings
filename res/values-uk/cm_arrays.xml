@@ -48,11 +48,6 @@
         <item>Вкл.</item>
         <item>Викл.</item>
     </string-array>
-    <string-array name="entries_status_bar_am_pm">
-        <item>Нормальный</item>
-        <item>Маленький</item>
-        <item>Немає (типово)</item>
-    </string-array>
     <string-array name="wifi_countrycode_entries">
         <item>США</item>
         <item>Канада, Тайвань</item>
